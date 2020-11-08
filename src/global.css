@@ -1,0 +1,26 @@
+:root {
+  --color-background: #090707;
+  --color-button-text: #FFFFFF;
+  --color-button-background: #B607CC;
+  --color-text-base: #FFFFFF;
+  --color-text-base-hover: #d3c8c8;
+  --color-box-header: #7E008E;
+  --color-box-footer:  #7E008E;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100vh;
+}
+body{
+  background: var(--color-background);
+}
+body, button{
+  font: 600 18px Nunito, sans-serif;
+  color:var(--color-button-text);
+}
