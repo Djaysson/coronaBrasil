@@ -21,6 +21,6 @@ body{
   background: var(--color-background);
 }
 body, button{
-  font: 600 18px Nunito, sans-serif;
+  font: 600 14px Nunito, sans-serif;
   color:var(--color-button-text);
 }

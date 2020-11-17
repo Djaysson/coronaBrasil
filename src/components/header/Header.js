@@ -1,5 +1,7 @@
+import React from 'react';
 import './styles.css';
 import LogoImg from '../../images/logo.svg';
+import { Link } from "react-router-dom";
 
 function header() {
   return (
@@ -7,10 +9,12 @@ function header() {
       <header>
         <img src={LogoImg} alt="logo" />
         <nav>
-          <a href="">Casos</a>
-          <a href="">Testes</a>
-          <a href="">Dicas</a>
-          <a href="">Plantão Coronavirus</a>
+          <ul>
+            <li><Link to="/">Casos</Link></li>
+            <li><Link to="/Tests">Testes</Link></li>
+            <li><Link to="/Tips">Dicas</Link></li>
+            <li><Link to="/Plato">Plantão Coronavirus</Link></li>
+          </ul>
         </nav>
       </header>
     </div>
