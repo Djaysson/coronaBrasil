@@ -27,10 +27,10 @@
   list-style: none;
 }
 .container header nav ul li{
- font-size: 17px;
+ font-size: 15px;
 }
 .container header nav ul li a{
-  padding-right: 13px;
+  padding-right: 30px;
  text-decoration: none;
  color:var(--color-text-base);
 }

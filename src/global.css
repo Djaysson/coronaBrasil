@@ -25,4 +25,5 @@ body{
   background: var(--color-background);
   font: 600 14px Nunito, sans-serif;
   color:var(--color-button-text);
+  overflow-x: hidden;
 }
