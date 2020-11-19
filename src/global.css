@@ -1,7 +1,7 @@
 :root {
   --color-background: #090707;
   --color-button-text: #FFFFFF;
-  --color-button-background: #B607CC;
+  --color-button-background:#7E008E;
   --color-text-base: #FFFFFF;
   --color-text-base-hover: #d3c8c8;
   --color-box-header: #7E008E;
@@ -17,10 +17,12 @@
 html, body, #root {
   height: 100vh;
 }
+a{
+  text-decoration: none;
+  color:var(--color-button-text);
+}
 body{
   background: var(--color-background);
-}
-body, button{
   font: 600 14px Nunito, sans-serif;
   color:var(--color-button-text);
 }

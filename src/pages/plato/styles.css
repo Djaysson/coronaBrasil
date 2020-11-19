@@ -1,0 +1,39 @@
+.container_plantao{
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.container_plantao h1{
+  margin: 25px;
+  font-size: 25px;
+  text-align: center;
+  
+}
+.container_plantao p{
+  font-size: 17px;
+  text-indent: 20px;
+  text-align: justify;
+  margin: 15px;
+}
+.container_plantao button{
+ font: 700 14px Nunito, sans-serif;
+ width: 210px;
+ height: 35px;
+ border: 0;
+ border-radius: 10px;
+ color:var(--color-button-text);
+ background-color: var(--color-button-background);
+}
+.container_plantao button:hover{
+ background-color: var(--color-text-base-hover);
+
+}
+.container_plantao img{
+  width: 220px;
+  height: 220px;
+  align-self: flex-end;
+  
+}
