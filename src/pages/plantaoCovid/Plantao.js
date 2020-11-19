@@ -3,7 +3,7 @@ import DoctorImg from '../../images/doctor.png';
 
 import './styles.css';
 
-const Plato = () => {
+const Plantao = () => {
   return (
     <div className="container_plantao">
       <h1>O QUE É O PLANTÃO CORONAVIRUS</h1>
@@ -33,4 +33,4 @@ const Plato = () => {
   );
 }
 
-export default Plato;
+export default Plantao;

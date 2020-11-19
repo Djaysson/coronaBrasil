@@ -1,17 +1,17 @@
 import React from 'react';
 import { Switch, Route, } from "react-router-dom";
-import Cases from './pages/cases/Cases';
-import Tests from './pages/tests/Tests';
-import Tips from './pages/tips/Tips';
-import Plato from './pages/plato/Plato';
+import Casos from './pages/casos/Casos';
+import Testes from './pages/testes/Testes';
+import Dicas from './pages/dicas/Dicas';
+import Plantão from './pages/plantaoCovid/Plantao';
 
 const Routes = () => {
   return (
     <Switch>
-      <Route path="/" exact component={Cases} />
-      <Route path="/Tests" component={Tests} />
-      <Route path="/Tips" component={Tips} />
-      <Route path="/Plato" component={Plato} />
+      <Route path="/" exact component={Casos} />
+      <Route path="/Tests" component={Testes} />
+      <Route path="/tips" component={Dicas} />
+      <Route path="/Plato" component={Plantão} />
     </Switch>
   );
 }
