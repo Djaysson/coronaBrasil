@@ -1,0 +1,7 @@
+
+table ,th,td{
+  border-bottom: 1px solid rgba(157, 153, 153, 0.2);
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: #17171a;
+  
+}

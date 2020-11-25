@@ -1,0 +1,10 @@
+.container_casos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container_casos img{
+ width: 550px;
+
+}
