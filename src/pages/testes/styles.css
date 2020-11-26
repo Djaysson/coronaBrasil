@@ -13,7 +13,7 @@
 
 }
 .container_testes iframe:hover{
-  border: 5px solid var(--color-button-background);
+  border: 3px solid var(--color-button-background);
 
 }
 .container_testes button{

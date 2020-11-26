@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import StatusBrasil from '../statusBrasil/StatusBrasil';
 import api from '../../server/api';
 import './styles.css';
 function TabelaEstadosBrasil() {
@@ -14,8 +15,9 @@ function TabelaEstadosBrasil() {
 
   return (
     <div className="container_table">
+      <StatusBrasil />
 
-      <h3>Status Brasil por UF</h3>
+      <h2>Status Brasil por UF</h2>
       <table>
         <thead>
           <tr>
