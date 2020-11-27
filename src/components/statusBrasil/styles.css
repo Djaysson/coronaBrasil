@@ -1,0 +1,15 @@
+.container_statusBrasil{
+  width: 40vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}.container_statusBrasil h2{
+  font-size: 20px;
+  font: 600 Nunito, sans-serif;
+  color:var(--color-button-text);
+}
+.container_statusBrasil table{
+  height: 20vh;
+ }

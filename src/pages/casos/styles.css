@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  justify-content: center;
 }
 .container_casos img{
  width: 750px;
