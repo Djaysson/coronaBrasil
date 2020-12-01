@@ -1,0 +1,47 @@
+.container_inforDicas{
+ display: flex;
+ flex-direction: column;
+}
+.container_inforDicas h2{
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.info img{
+  width: 20vw;
+ height: 50vh;
+}
+.infor_main{
+  width: 90vw;
+  height: 50vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1em;
+ 
+
+}
+.inforD{
+  width: 25vw;
+  height: 23vh;
+  display: flex;
+  flex-direction: row;
+  align-items: inherit;
+ 
+}
+.inforD img{
+  width: 8vw;
+  height: 22vh;
+
+}
+.inforD a{
+padding-left: 10px;
+
+}

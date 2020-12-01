@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+import InforDicas from '../../components/inforDicas/InforDicas';
 import DoctorGirlImg from '../../images/doctorGirl.png';
 import CleanHandslImg from '../../images/clean-hands.svg';
 import DoctorImg from '../../images/doctor.svg';
@@ -8,6 +8,7 @@ import healthcareImg from '../../images/healthcare.svg';
 import NewsImg from '../../images/news.svg';
 import SocialDistancingImg from '../../images/social-distancing.svg';
 
+import './styles.css';
 
 const Dicas = () => {
   return (
@@ -69,7 +70,7 @@ const Dicas = () => {
       <p>
         <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public" target="_blank">Fonte site da OMS</a>
       </p>
-
+      <InforDicas />
     </div>
   );
 }
