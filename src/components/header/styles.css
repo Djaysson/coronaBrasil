@@ -52,9 +52,18 @@
 }
 
 @media (max-width: 768px){
-	.checkbtn {
-		display: block;
+  .container header{
+    height: 50px;
+    background: var(--color-box-header);
+    display: flex;
+    justify-content: space-between;
+   
   }
+  .container img {
+    width: 120px;
+    
+   }
+	
   .container header nav {
     display: flex;
     align-items: center;
@@ -75,7 +84,7 @@
 		position: fixed;
 		width: 100%;
     background: var(--color-box-header);
-		top: 60px;
+		top: 50px;
 		left: -100%;
 		text-align: center;
 		transition: all .5s;
@@ -86,8 +95,11 @@
 		line-height: 30px;
 	}
   .container	nav ul li a {
-		font-size: 14px;
-	}
+		font-size: 12px;
+  }
+  .checkbtn {
+		display: block;
+  }
 	a:hover, a.active {
 		background: none;
     color:var(--color-text-base);
