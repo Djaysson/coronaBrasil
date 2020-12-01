@@ -9,12 +9,19 @@ function header() {
       <header>
         <img src={LogoImg} alt="logo" />
         <nav>
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+          </label>
+
+
           <ul>
             <li><Link to="/">Casos</Link></li>
             <li><Link to="/Tests">Testes</Link></li>
             <li><Link to="/Tips">Dicas</Link></li>
             <li><Link to="/Plato">Plantão Coronavirus</Link></li>
           </ul>
+
         </nav>
       </header>
     </div>
