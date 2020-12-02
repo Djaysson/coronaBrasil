@@ -15,6 +15,7 @@
 .container_plantao p{
   font-size: 17px;
   text-indent: 20px;
+  line-height: 27px;
   text-align: justify;
   margin: 15px;
 }
@@ -36,4 +37,46 @@
   height: 220px;
   align-self: flex-end;
   
+}
+@media (max-width: 768px){
+  .container_plantao{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .container_plantao h1{
+    margin: 20px;
+    font-size: 15px;
+    text-align: center;
+    
+  }
+  .container_plantao p{
+    font-size: 13px;
+    text-indent: 20px;
+    line-height: 20px;
+    text-align: justify;
+    margin: 10px;
+  }
+  .container_plantao button{
+   font: 700 12px Nunito, sans-serif;
+   width: 200px;
+   height: 30px;
+   border: 0;
+   border-radius: 10px;
+   color:var(--color-button-text);
+   background-color: var(--color-button-background);
+  }
+  .container_plantao button:hover{
+   background-color: var(--color-text-base-hover);
+  
+  }
+  .container_plantao img{
+    width: 140px;
+    height: 140px;
+    align-self: flex-end;
+    
+  }
 }

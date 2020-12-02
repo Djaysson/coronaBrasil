@@ -3,10 +3,25 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  justify-content: center;
+ 
 }
 .container_casos img{
  width: 750px;
  height: 700px;
 
+}
+@media (max-width: 768px){
+  .container_casos{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("../../images/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+  }
+  .container_casos img{
+   display: none;
+  }
 }

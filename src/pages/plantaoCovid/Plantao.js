@@ -8,13 +8,12 @@ const Plantao = () => {
     <div className="container_plantao">
       <h1>O QUE É O PLANTÃO CORONAVIRUS</h1>
       <p>É um canal de comunicação lançada pelo o governo do Ceara,
-      que por via whatsapp e também disponível no site
-      coronavirus.ceara.gov.br proporciona atendimentos os cidadãos
+      que por via whatsapp e também disponível no site coronavirus.ceara.gov.br proporciona atendimentos os cidadãos
       e cidadãs durante a pandemia do novo coronavirus. A população pode,
       pelo celular, fazer a auto avaliação do seu estado de saúde e receber
       orientações de uma equipe médica de plantão.
-      </p>
-      <p>O atendimento via whatsapp funciona como qualquer conversa de whatsapp,
+      
+      O atendimento via whatsapp funciona como qualquer conversa de whatsapp,
       basta mandar um “oi” para receber orientações e ser atendido por uma
       equipe de saúde do governo.
       </p>

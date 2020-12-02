@@ -9,6 +9,12 @@
   justify-content: center;
   margin: 30px;
 }
+.container_inforDicas p{
+  display: flex;
+  align-self: flex-end;
+  padding: 5px;
+  
+}
 .info{
   display: flex;
   flex-direction: row;
@@ -44,4 +50,62 @@
 .inforD a{
 padding-left: 10px;
 
+}
+
+@media (max-width: 768px){
+  .container_inforDicas{
+    display: flex;
+    flex-direction: column;
+   }
+   .container_inforDicas h2{
+     font-size: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 30px;
+   }
+   .container_inforDicas p{
+    font-size: 12px;
+    display: flex;
+    align-self: flex-end;
+    padding: 5px;
+  
+  }
+   .info{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+   }
+   .info img{
+     width: 20vw;
+    height: 30vh;
+   }
+   .infor_main{
+     width: 80vw;
+     height: 100vh;
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-gap: 1em;
+    
+ 
+   }
+   .inforD{
+     width: 38vw;
+     height: 23vh;
+     display: flex;
+     flex-direction: row;
+     align-items: inherit;
+     
+   }
+   .inforD img{
+     width: 15vw;
+     height: 22vh;
+     
+   }
+   .inforD a{
+   padding-left: 6px;
+   font-size: 12px;
+ 
+   }
 }
