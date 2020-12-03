@@ -55,7 +55,7 @@
   }
   .container_table .components table{
     width: 64vw;
-    height: 25vh;
+    height: 38vh;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(1,1fr);
