@@ -39,7 +39,7 @@ Rodando o projeto
 yarn start
 ```
 
-Visite [http://localhost:3000](http://localhost:3000) com o seu navegador para ver o resultado.
+
 ## Construido com:
 * [Reactjs](https://github.com/facebook/react/blob/master/CHANGELOG.md#16131-march-19-2020)  
 * [Figma](https://figma.com/) 
