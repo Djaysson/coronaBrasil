@@ -1,5 +1,5 @@
 <p align="center">
-<img  src="./public/logo.svg"></img>
+<img  src="./src/images/logo.svg"></img>
 </p>
 <h1 align="center">Projeto teste-covid</h1>
 <p align="center">O projeto foi desenvolvido para informar a população sobre os casos de covid e mostra lugares que faz os testes de covid.</p>
@@ -67,6 +67,6 @@ https://covid19-brazil-api.now.sh
 
 ## Frontend
 
-<img align="center" src="./public/pageCasos.png"></img>
+<img align="center" src="./src/images/pageCasos.png"></img>
 
 
