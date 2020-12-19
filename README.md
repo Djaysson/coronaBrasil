@@ -4,13 +4,6 @@
 <h1 align="center">Projeto teste-covid</h1>
 <p align="center">O projeto foi desenvolvido para informar a população sobre os casos de covid e mostra lugares que faz os testes de covid.</p>
 
-<p align="center">
-  <a aria-label="Versão do React" href="https://github.com/facebook/react/blob/master/CHANGELOG.md#16131-march-19-2020">
-      <img src="https://img.shields.io/badge/React-17.0.1-informational?logo=react"></img>
-    </a>
-  
-
-  </p>
 
   ## Instalação 
 Para instalar as dependências e executar o **teste-covid** você vai precisa do yarn instalado em sua máquina, o outro passo é você clona o projeto em seu computador e em seguida execute:
