@@ -6,7 +6,7 @@
 
 
   ## Instalação 
-Para instalar as dependências e executar o **teste-covid** você vai precisa do yarn instalado em sua máquina, o outro passo é você clona o projeto em seu computador e em seguida execute:
+Para instalar as dependências do  **teste-covid** execute os seguintes passos:
 
 Clonando o projeto:
 
