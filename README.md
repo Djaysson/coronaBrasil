@@ -1,12 +1,12 @@
 <p align="center">
 <img  src="./src/images/logo.svg"></img>
 </p>
-<h1 align="center">Projeto teste-covid</h1>
+<h1 align="center">Projeto Testes-covid</h1>
 <p align="center">O projeto foi desenvolvido para informar a população sobre os casos de covid e mostra lugares que faz os testes de covid.</p>
 
 
   ## Instalação 
-Para instalar as dependências do  **teste-covid** execute os seguintes passos:
+Para instalar as dependências do  **Testes-covid** execute os seguintes passos:
 
 Clonando o projeto:
 
