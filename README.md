@@ -23,13 +23,13 @@ cd Testes-covid
 Baixando as dependências do projeto
 
 ```bash
-yarn install
+yarn install ou npm install
 ```
 
 Rodando o projeto
 
 ```bash
-yarn start
+yarn start ou npm start
 ```
 
 
