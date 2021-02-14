@@ -73,6 +73,7 @@
   
   }
   .container header nav ul{
+    position: absolute;
     font-weight: bold;
     display: flex;
     flex-direction: column;

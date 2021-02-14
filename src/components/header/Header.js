@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiAlignJustify } from "react-icons/fi";
 import './styles.css';
 import LogoImg from '../../images/logo.svg';
 import { Link } from "react-router-dom";
@@ -10,8 +11,8 @@ function header() {
         <img src={LogoImg} alt="logo" />
         <nav>
           <input type="checkbox" id="check" />
-          <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
+          <label htmlFor="check" className="checkbtn">
+            <FiAlignJustify />
           </label>
 
 

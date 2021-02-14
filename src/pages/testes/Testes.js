@@ -36,9 +36,9 @@ const Tests = () => {
         src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63698.71632241925!2d-38.584796006781296!3d-3.7732119959636576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stestes%20covid!5e0!3m2!1spt-BR!2sbr!4v1605748132739!5m2!1spt-BR!2sbr"
         width="95%"
         height="450"
-        frameborder="0"
+        border="0"
         aria-hidden="false"
-        tabindex="0">
+        index="0">
       </iframe>
       <button><Link to="/Plato">PLANTÃO CORONAVIRUS</Link></button>
     </div>
