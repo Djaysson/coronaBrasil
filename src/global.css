@@ -1,32 +1,37 @@
 :root {
-  --color-background: #090707;
-  --color-button-text: #FFFFFF;
-  --color-button-background:#7E008E;
-  --color-text-base: #FFFFFF;
+  --color-background: #eff3f4;
+  --color-button-text: #ffffff;
+  --color-button-background: #7e008e;
+  --color-text-base: #ffffff;
   --color-text-black-base: #000000;
   --color-text-secondary: #706d6d;
-  --color-background-dicas: #FFFFFF;
+  --color-background-dicas: #ffffff;
   --color-text-base-hover: #d3c8c8;
-  --color-box-header: #7E008E;
-  --color-box-footer:  #7E008E;
-
+  --color-box-header: #263238;
+  --color-box-footer: #263238;
 }
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html, body, #root {
+html,
+body,
+#root {
   height: 100vh;
 }
-a{
+a {
   text-decoration: none;
-  color:var(--color-button-text);
+  color: var(--color-button-text);
 }
-body{
+body {
   background: var(--color-background);
-  font: 600 14px Nunito, sans-serif;
-  color:var(--color-button-text);
-  overflow-x: hidden;
+  font: 16px "Roboto", sans-serif;
+  color: var(--color-button-text);
+}
+@media (min-width: 300px) and (max-width: 768px) {
+  body {
+    font: 12px "Roboto", sans-serif;
+  }
 }
