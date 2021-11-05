@@ -1,12 +1,10 @@
 .container {
-  margin: 0;
   width: 100vw;
   height: 70px;
   background: var(--color-box-header);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 1;
 }
 .container img {
   width: 13vw;
@@ -54,7 +52,7 @@
     margin-left: 1rem;
   }
   #navContainer {
-    width: 60vw;
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -64,6 +62,7 @@
     position: absolute;
     background: var(--color-box-header);
     top: 69px;
+    z-index: 1;
   }
   .open {
     transform: translateX(0px) !important;
@@ -77,7 +76,7 @@
     top: 20px;
   }
   #navContainer ul li {
-    width: 60vw;
+    width: 100vw;
     font-size: 1.3em;
     padding: 30px 0px;
     text-align: center;
@@ -88,6 +87,7 @@
     height: 12vh;
     display: flex;
     flex-direction: row;
+
     align-items: center;
     justify-content: flex-end;
     padding-right: 1rem;

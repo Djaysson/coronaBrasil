@@ -91,7 +91,7 @@
   }
   .SectionContainer {
     width: 90vw;
-    height: 100vw;
+    height: 100vh;
     display: flex;
     margin: 5px auto 50px;
     flex-direction: column;
@@ -130,6 +130,3 @@
     margin: 0px auto 10px;
   }
 }
-
-/* da um commit add home page */
-/* outro commit corrigindo bags de interface nos arquivos do projeto  */

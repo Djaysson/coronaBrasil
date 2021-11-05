@@ -5,7 +5,7 @@ import api from "../../server/apiCovidEstados";
 import Img from "../../images/Person.svg";
 
 import "./styles.css";
-const Casos = () => {
+const StatusCasos = () => {
   const [dataTable, setDataTable] = useState([]);
   useEffect(() => {
     api.get("/report/v1").then((response) => {
@@ -59,4 +59,4 @@ const Casos = () => {
   );
 };
 
-export default Casos;
+export default StatusCasos;

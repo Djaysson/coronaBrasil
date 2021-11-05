@@ -1,21 +1,22 @@
-.container_statusCeara{
+.container_statusCeara {
   width: 40vw;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}.container_statusCeara h2{
+}
+.container_statusCeara h2 {
   font-size: 20px;
   font: 600 Nunito, sans-serif;
-  color:var(--color-button-text);
+  color: var(--color-button-text);
   margin: 10px;
-  
-}.container_statusCeara table{
- height: 20vh;
 }
-@media (max-width: 768px){
-  .container_statusCeara{
+.container_statusCeara table {
+  height: 20vh;
+}
+@media (max-width: 768px) {
+  .container_statusCeara {
     width: 90vw;
     margin: 0 auto;
     display: flex;
@@ -23,14 +24,12 @@
     align-items: center;
     justify-content: center;
   }
-  .container_statusCeara h2{
+  .container_statusCeara h2 {
     font-size: 20px;
     font: 600 Nunito, sans-serif;
-    color:var(--color-button-text);
-   
-    
+    color: var(--color-button-text);
   }
-  .container_statusCeara table{
+  .container_statusCeara table {
     height: 25vh;
   }
- }
+}

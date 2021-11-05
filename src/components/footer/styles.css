@@ -1,5 +1,5 @@
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0em;
   width: 100vw;
   display: flex;
@@ -7,7 +7,7 @@
   background: var(--color-box-footer);
 }
 .footer footer {
-  height: 3rem;
+  height: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,6 +21,14 @@
   height: 35px;
 }
 @media (min-width: 300px) and (max-width: 768px) {
+  .footer {
+    position: relative;
+    bottom: 0px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background: var(--color-box-footer);
+  }
   .footer footer {
     height: 3rem;
   }

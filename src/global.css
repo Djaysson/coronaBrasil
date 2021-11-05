@@ -1,14 +1,41 @@
 :root {
   --color-background: #eff3f4;
-  --color-button-text: #ffffff;
-  --color-button-background: #7e008e;
-  --color-text-base: #ffffff;
-  --color-text-black-base: #000000;
-  --color-text-secondary: #706d6d;
-  --color-background-dicas: #ffffff;
+  --color-banner-background: #263235;
+  --color-button-text: #eff3f3;
+  --color-button-background: #263235;
+  --color-button-background-secondary: #7db86b;
+  --color-hover-button: #3e4444;
+  --color-statistics-background: #263235;
+  --color-statistics-background-secondary: #7db86b;
+  --color-table-background: #7db86b;
+  --color-table-background-secondary: #d8e9d2;
+  --color-table-background-dark: #263235;
+  --color-text-base: #eff3f3;
+  --color-base-shadow: #000;
+  --color-text-black-base: #494848;
+  --color-background-dicas: #263236;
   --color-text-base-hover: #d3c8c8;
   --color-box-header: #263238;
   --color-box-footer: #263238;
+}
+/* Works on Firefox */
+* {
+  scrollbar-width: 7px;
+  scrollbar-color: #7db86b #3e4444;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #3e4444;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #7db86b;
+  border-radius: 5px;
 }
 * {
   margin: 0;
@@ -26,6 +53,8 @@ a {
   color: var(--color-button-text);
 }
 body {
+  overflow-x: hidden;
+  overflow-y: initial;
   background: var(--color-background);
   font: 16px "Roboto", sans-serif;
   color: var(--color-button-text);

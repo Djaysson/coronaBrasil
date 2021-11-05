@@ -1,0 +1,35 @@
+.bannerContainer {
+  display: flex;
+  animation: fadeInLeft;
+  animation-duration: 2s;
+  justify-content: center;
+  height: 22rem;
+  border-radius: 20px;
+  background: var(--color-banner-background);
+}
+
+.bannerContainer img {
+  width: 46vw;
+  object-fit: cover;
+  height: 22rem;
+  filter: drop-shadow(2px 2px 5px var(--color-text-black-base));
+}
+@media (min-width: 300px) and (max-width: 768px) {
+  .bannerContainer {
+    display: flex;
+    animation: fadeInLeft;
+    animation-duration: 2s;
+    justify-content: center;
+    height: 15rem;
+    border-radius: 20px;
+    background: var(--color-banner-background);
+    z-index: 0;
+  }
+
+  .bannerContainer img {
+    width: 90vw;
+    object-fit: contain;
+    height: 15rem;
+    filter: drop-shadow(2px 2px 5px var(--color-text-black-base));
+  }
+}

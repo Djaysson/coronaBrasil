@@ -1,17 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import api from '../../server/api';
-import './styles.css';
+import React, { useEffect, useState } from "react";
+import api from "../../server/apiCovidEstados";
+import "./styles.css";
 
 function StatusCeara() {
-
   const [statusC, setStatusC] = useState([]);
   useEffect(() => {
-    api.get("/api/report/v1/brazil/uf/ce").then(response => {
+    api.get("/api/report/v1/brazil/uf/ce").then((response) => {
       const dados = response.data;
       setStatusC(dados);
-
-    })
-
+    });
   }, []);
 
   function formatNumber(number) {
@@ -23,8 +20,12 @@ function StatusCeara() {
 
   function formatDate(date) {
     const d = new Date(date);
-    const day = `${formatNumber(d.getDate())}/${formatNumber(d.getMonth() + 1)}/${d.getFullYear()}`;
-    const hour = `${formatNumber(d.getHours())}:${formatNumber(d.getMinutes())}`;
+    const day = `${formatNumber(d.getDate())}/${formatNumber(
+      d.getMonth() + 1
+    )}/${d.getFullYear()}`;
+    const hour = `${formatNumber(d.getHours())}:${formatNumber(
+      d.getMinutes()
+    )}`;
     return `${day} - ${hour}`;
   }
 
@@ -34,20 +35,40 @@ function StatusCeara() {
       <table>
         <thead>
           <tr>
-            <td><span role="img" aria-label="check">✅</span> {statusC.cases} Confirmados</td>
+            <td>
+              <span role="img" aria-label="check">
+                ✅
+              </span>{" "}
+              {statusC.cases} Confirmados
+            </td>
           </tr>
 
           <tr>
-            <td><span role="img" aria-label="death">💀</span> {statusC.deaths} Mortes</td>
+            <td>
+              <span role="img" aria-label="death">
+                💀
+              </span>{" "}
+              {statusC.deaths} Mortes
+            </td>
           </tr>
         </thead>
 
-        <tbody className="status_update" >
+        <tbody className="status_update">
           <tr>
-            <td><span role="img" aria-label="time">🕐</span>Atualizado: {formatDate(statusC.datetime)}</td>
+            <td>
+              <span role="img" aria-label="time">
+                🕐
+              </span>
+              Atualizado: {formatDate(statusC.datetime)}
+            </td>
           </tr>
           <tr>
-            <td><span role="img" aria-label="chart">📊</span>Fonte:  WHO</td>
+            <td>
+              <span role="img" aria-label="chart">
+                📊
+              </span>
+              Fonte: WHO
+            </td>
           </tr>
         </tbody>
       </table>
