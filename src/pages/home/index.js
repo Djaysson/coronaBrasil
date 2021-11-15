@@ -20,7 +20,7 @@ function Home() {
   }, []);
 
   function handlingRedirectButton() {
-    history.push("/StatusCasos");
+    history.push("/Casos");
   }
   return (
     <div className="homeContainer">

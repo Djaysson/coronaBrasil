@@ -1,65 +1,63 @@
-<p align="center">
-<img  src="./src/images/logo.svg"></img>
-</p>
-<h1 align="center">Projeto Testes-covid</h1>
-<p align="center">O projeto foi desenvolvido para informar a população sobre os casos de covid e mostra lugares que faz os testes de covid.</p>
+<h1 align="center">
+    <img alt="" title="Logo" src="./src/images/logo.png" width="150px" />
+    <br>CoronaBrasil<br/>
+</h1>
 
+## 💻 Projeto
 
-  ## Instalação 
-Para instalar as dependências do  **Testes-covid** execute os seguintes passos:
+O **CoronaBrasil** foi desenvolvido para informar a população sobre os casos de covid e mostrar a quantidade de pessoas já vacinadas no Brasil, o projeto também comunica alguns cuidados que as pessoas precisa ter para não contrair a covid.
 
-Clonando o projeto:
+<br/>
+
+<h1 align="center">
+    <img alt="Booster" title="Booster" src="./src/images/Projeto.svg"  />
+</h1>
+
+<br/>
+
+## 🚀 Tecnologias
+
+Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
+
+- React
+- React-dom
+- React-Icons
+- React-slideshow-image
+- axios
+
+ <br/>
+
+## ⚙️ Como Executar
+
+### **Pré-requisitos**
+
+- É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado no computador
+- É **necessário** possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador
+- Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
+
+ <br/>
+
+Para clonar e executar este aplicativo,
+execute os seguintes comando.
+
+1. Faça um clone do repositório:
+
+```sh
+  $ https://github.com/Djaysson/coronaBrasil.git
+```
+
+2. Executando a Aplicação:
+
+```sh
+  # Aplicação web
+  $ cd coronaBrasil
+  # Instalando as dependências do projeto.
+  $ yarn install # ou npm install
+  # Inicie a aplicação web
+  $ yarn start # ou npm start
 
 ```
-git clone https://github.com/Djaysson/Testes-covid.git
-```
 
-Navegando até a pasta do projeto:
+## 💁🏻 Autor
 
-```
-cd Testes-covid
-```
-
-Baixando as dependências do projeto
-
-```bash
-yarn install ou npm install
-```
-
-Rodando o projeto
-
-```bash
-yarn start ou npm start
-```
-
-
-## Construido com:
-* [Reactjs](https://github.com/facebook/react/blob/master/CHANGELOG.md#16131-march-19-2020)  
-* [Figma](https://figma.com/) 
-* [React Router](https://reactrouter.com/web/guides/quick-start) 
-
-
-## API usada no projeto
-Fornecer em formato JSON os dados atualizados sobre o avanço do coronavírus no Brasil.
-
-## Docs 📄
-
-- [Site](https://covid19-brazil-api-docs.now.sh/)
-
-## Base url 🔌
-
-Todas chamadas devem usar a url base:
-
-```
-https://covid19-brazil-api.now.sh
-```
-## Autor
 **Djayson Rodrigues** - [LinkedIn](https://br.linkedin.com/in/djaysonrodrigues)
-
-
-
-## Frontend
-
-<img align="center" src="./src/images/pageCasos.png"></img>
-
-
