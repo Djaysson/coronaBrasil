@@ -1,0 +1,51 @@
+@import "react-slideshow-image/dist/styles.css";
+
+.slideContainer {
+  width: 100vw;
+  height: auto;
+  margin-bottom: 10px;
+  background: url(../../images/Epidemic-3.svg) right no-repeat;
+  background-size: 25vw;
+  animation: fadeInLeft;
+  animation-duration: 3s;
+}
+.slideContainer h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.7em;
+  font-weight: 700;
+  color: var(--color-text-black-base);
+}
+
+.slide {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.slideImg {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+}
+@media (min-width: 300px) and (max-width: 768px) {
+  .slideContainer {
+    width: 90vw;
+    height: auto;
+    margin: 15px auto;
+    background: none;
+  }
+  .slideContainer h1 {
+    text-align: center;
+    font-size: 1.7em;
+  }
+
+  .slide {
+    width: 100%;
+  }
+
+  .slideImg {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+  }
+}

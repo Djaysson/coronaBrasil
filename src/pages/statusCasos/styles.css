@@ -1,0 +1,95 @@
+.casesContainer {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: initial;
+}
+.casesSection {
+  display: flex;
+  flex-direction: column;
+  width: 85vw;
+  height: auto;
+  padding-top: 5px;
+  margin: 0px auto;
+}
+.casestable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.casestable h1 {
+  font-size: 1.7em;
+  font-weight: 700;
+  margin: 25px 0;
+  color: var(--color-text-black-base);
+  animation: fadeInLeft;
+  animation-duration: 3s;
+}
+.table {
+  width: 60vw;
+  text-align: center;
+  background-color: var(--color-table-background);
+  animation: fadeInLeft;
+  animation-duration: 3s;
+}
+.tableHeader {
+  color: var(--color-text-base);
+  background-color: var(--color-table-background-dark);
+}
+.tableHeader tr {
+  height: 40px;
+}
+.tableHeader tr td {
+  font-weight: 700;
+  font-size: 1.1em;
+}
+.tableHeader tr td span {
+  font-weight: 700;
+  margin-right: 5px;
+}
+.tableBody {
+  color: var(--color-text-black-base);
+  background-color: var(--color-table-background-secondary);
+}
+.tableBody tr {
+  height: 35px;
+  color: var(--color-text-black-base);
+  background-color: var(--color-table-background-secondary);
+}
+.tableBody tr td {
+  font-weight: 500;
+  font-size: 1em;
+}
+@media (min-width: 300px) and (max-width: 768px) {
+  .casesContainer {
+    height: 100vh;
+  }
+  .casesSection {
+    width: 90vw;
+  }
+  .casestable h1 {
+    font-size: 1.4em;
+    margin: 15px 0;
+  }
+  .table {
+    width: 85vw;
+  }
+
+  .tableHeader tr {
+    height: 35px;
+  }
+  .tableHeader tr td {
+    font-size: 1.1em;
+  }
+  .tableHeader tr td span {
+    margin-right: 2px;
+  }
+
+  .tableBody tr {
+    height: 30px;
+  }
+  .tableBody tr td {
+    font-size: 1em;
+  }
+}
