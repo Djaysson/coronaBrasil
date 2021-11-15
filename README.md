@@ -19,6 +19,8 @@ O **CoronaBrasil** foi desenvolvido para informar a população sobre os casos d
 
 Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 
+- Javascript
+- Css
 - React
 - React-dom
 - React-Icons
