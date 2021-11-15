@@ -11,9 +11,10 @@
   --color-table-background-secondary: #d8e9d2;
   --color-table-background-dark: #263235;
   --color-text-base: #eff3f3;
+  --color-text-base-secondary: #eff3f3a9;
   --color-base-shadow: #000;
   --color-text-black-base: #494848;
-  --color-background-dicas: #263236;
+  --color-background-dicas: #37474f;
   --color-text-base-hover: #d3c8c8;
   --color-box-header: #263238;
   --color-box-footer: #263238;
@@ -21,6 +22,7 @@
 /* Works on Firefox */
 * {
   scrollbar-width: 7px;
+
   scrollbar-color: #7db86b #3e4444;
 }
 
@@ -30,12 +32,11 @@
 }
 
 *::-webkit-scrollbar-track {
-  background: #3e4444;
+  background: #3e444448;
 }
 
 *::-webkit-scrollbar-thumb {
   background-color: #7db86b;
-  border-radius: 5px;
 }
 * {
   margin: 0;

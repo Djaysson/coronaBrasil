@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
 import api from "../../server/apiCovidBrasil";
-import { Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
+
 import "./styles.css";
 import Banner from "../../components/banner/Banner";
 import Img from "../../images/Epidemic-1.svg";
 
 function Home() {
   const [statusBrasil, setStatusBrasil] = useState([]);
+  let history = useHistory();
   useEffect(() => {
     const fetchData = async () => {
       const response = await api.get("countries/Brazil");
@@ -17,6 +19,9 @@ function Home() {
     fetchData();
   }, []);
 
+  function handlingRedirectButton() {
+    history.push("/StatusCasos");
+  }
   return (
     <div className="homeContainer">
       <section className="SectionContainer">
@@ -53,8 +58,8 @@ function Home() {
             <strong>{statusBrasil.deaths}</strong>
             <span>Óbitos Confirmados</span>
           </div>
-          <button className="button">
-            <Link to="/StatusCasos">Saiba mais...</Link>
+          <button className="button" onClick={handlingRedirectButton}>
+            Saiba mais...
           </button>
         </div>
       </section>

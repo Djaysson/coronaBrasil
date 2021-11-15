@@ -32,13 +32,13 @@ function Header() {
             </NavLink>
           </li>
           <li onClick={handleOpenMenu}>
-            <NavLink to="/statusCasos" activeStyle={{ color: "#7DB86B" }}>
-              Status Casos
+            <NavLink to="/Casos" activeStyle={{ color: "#7DB86B" }}>
+              Casos
             </NavLink>
           </li>
           <li onClick={handleOpenMenu}>
-            <NavLink to="/statusVacinacao" activeStyle={{ color: "#7DB86B" }}>
-              Status vacinação
+            <NavLink to="/Vacinas" activeStyle={{ color: "#7DB86B" }}>
+              Vacinação
             </NavLink>
           </li>
           <li onClick={handleOpenMenu}>
